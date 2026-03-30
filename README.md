@@ -76,15 +76,15 @@ python gui_manager.py
 
 ### 🎯 Flujo de Uso
 
-    Pestaña Equipo: Añade a los integrantes (ej. Thomas, Diego, Samuel) definiendo su hora de inicio y fin de jornada.
+   Pestaña Equipo: Añade a los integrantes (ej. Thomas, Diego, Samuel) definiendo su hora de inicio y fin de jornada.
 
-    Configurar Matrices: Haz clic en "Matriz" para cada usuario y marca en rojo (bloqueado) las horas donde tienen otras ocupaciones.
+   Configurar Matrices: Haz clic en "Matriz" para cada usuario y marca en rojo (bloqueado) las horas donde tienen otras ocupaciones.
 
-    Pestaña Tareas: Registra las actividades del proyecto indicando nombre, horas requeridas, prioridad (número menor = mayor prioridad) y si dependen del ID de una tarea anterior.
+   Pestaña Tareas: Registra las actividades del proyecto indicando nombre, horas requeridas, prioridad (número menor = mayor prioridad) y si dependen del ID de una tarea anterior.
 
-    Pestaña Resultado: Haz clic en GENERAR para que el algoritmo procese los horarios.
+   Pestaña Resultado: Haz clic en GENERAR para que el algoritmo procese los horarios.
 
-    Exportar: Usa el botón PDF para guardar un archivo Reporte_SyncUp.pdf en la misma carpeta del proyecto.
+   Exportar: Usa el botón PDF para guardar un archivo Reporte_SyncUp.pdf en la misma carpeta del proyecto.
 
 ### 📄 Licencia
 
@@ -97,3 +97,13 @@ Este proyecto tiene fines académicos.
 Simplemente crea un archivo nuevo en la carpeta de tu proyecto llamado `README.md`, pega todo este bloque de texto, guárdalo y súbelo a tu repositorio. GitHub leerá los `##` como títulos, los `-` como viñetas y los triple backticks (```) como cajas de código con colores.
 
 Con el código funcionando y la documentación lista, el proyecto quedó completamente cerrado. ¿Te gustaría que revisemos cómo subir esto a un repositorio de GitHub desde la terminal, o ya tienes dominada esa parte?
+
+
+---
+
+
+### Integrantes
+
+- Thomas Bedoya Rendon
+- Eder Ceballos Quiroz
+- Samuel Pabon Rendon
