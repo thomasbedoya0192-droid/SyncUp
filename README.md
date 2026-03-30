@@ -46,3 +46,54 @@ Sigue estos pasos para clonar, configurar y ejecutar el proyecto en tu máquina 
 Es recomendable usar un entorno virtual para no interferir con los paquetes globales de tu distribución (especialmente en Arch Linux).
 ```bash
 python -m venv env
+```
+
+
+### 3. Activar el Entorno Virtual
+
+Dependiendo de tu shell (Bash, Zsh o Fish), el comando varía ligeramente.
+
+Para Fish Shell:
+Fragmento de código
+
+* `source env/bin/activate.fish`
+
+(Para Bash/Zsh usa: source env/bin/activate)
+### 4. Instalar las dependencias
+
+Una vez dentro del entorno virtual, instala las librerías necesarias:
+Bash
+```bash
+pip install customtkinter fpdf2
+```
+### 5. Ejecutar la Aplicación
+
+Con el entorno activado y las dependencias instaladas, lanza la interfaz gráfica:
+Bash
+```bash
+python gui_manager.py
+```
+
+### 🎯 Flujo de Uso
+
+    Pestaña Equipo: Añade a los integrantes (ej. Thomas, Diego, Samuel) definiendo su hora de inicio y fin de jornada.
+
+    Configurar Matrices: Haz clic en "Matriz" para cada usuario y marca en rojo (bloqueado) las horas donde tienen otras ocupaciones.
+
+    Pestaña Tareas: Registra las actividades del proyecto indicando nombre, horas requeridas, prioridad (número menor = mayor prioridad) y si dependen del ID de una tarea anterior.
+
+    Pestaña Resultado: Haz clic en GENERAR para que el algoritmo procese los horarios.
+
+    Exportar: Usa el botón PDF para guardar un archivo Reporte_SyncUp.pdf en la misma carpeta del proyecto.
+
+### 📄 Licencia
+
+Este proyecto tiene fines académicos.
+
+
+---
+
+### ¿Cómo implementarlo?
+Simplemente crea un archivo nuevo en la carpeta de tu proyecto llamado `README.md`, pega todo este bloque de texto, guárdalo y súbelo a tu repositorio. GitHub leerá los `##` como títulos, los `-` como viñetas y los triple backticks (```) como cajas de código con colores.
+
+Con el código funcionando y la documentación lista, el proyecto quedó completamente cerrado. ¿Te gustaría que revisemos cómo subir esto a un repositorio de GitHub desde la terminal, o ya tienes dominada esa parte?
