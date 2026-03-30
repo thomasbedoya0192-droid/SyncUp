@@ -39,5 +39,10 @@ Las dependencias principales del proyecto son:
 Sigue estos pasos para clonar, configurar y ejecutar el proyecto en tu máquina local. Los comandos están orientados a terminales Unix/Linux.
 
 ### 1. Clonar el repositorio (o ubicarte en la carpeta del proyecto)
+
+* `cd ruta/a/tu/carpeta/SyncUp`
+
+### 2. Crear un Entorno Virtual
+Es recomendable usar un entorno virtual para no interferir con los paquetes globales de tu distribución (especialmente en Arch Linux).
 ```bash
-cd ruta/a/tu/carpeta/SyncUp
+python -m venv env
