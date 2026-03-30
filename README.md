@@ -93,14 +93,6 @@ Este proyecto tiene fines académicos.
 
 ---
 
-### ¿Cómo implementarlo?
-Simplemente crea un archivo nuevo en la carpeta de tu proyecto llamado `README.md`, pega todo este bloque de texto, guárdalo y súbelo a tu repositorio. GitHub leerá los `##` como títulos, los `-` como viñetas y los triple backticks (```) como cajas de código con colores.
-
-Con el código funcionando y la documentación lista, el proyecto quedó completamente cerrado. ¿Te gustaría que revisemos cómo subir esto a un repositorio de GitHub desde la terminal, o ya tienes dominada esa parte?
-
-
----
-
 
 ### Integrantes
 
