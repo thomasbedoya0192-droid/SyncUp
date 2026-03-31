@@ -58,6 +58,15 @@ Fragmento de código
 
 * `source env/bin/activate.fish`
 
+#### Activar en Windows
+
+* `env\Scripts\activate`
+
+
+#### Activar entorno virtual en Windows
+
+* `env\Scripts\activate`
+
 (Para Bash/Zsh usa: source env/bin/activate)
 ### 4. Instalar las dependencias
 
@@ -66,6 +75,7 @@ Bash
 ```bash
 pip install customtkinter fpdf2
 ```
+
 ### 5. Ejecutar la Aplicación
 
 Con el entorno activado y las dependencias instaladas, lanza la interfaz gráfica:
