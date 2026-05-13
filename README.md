@@ -108,4 +108,4 @@ Este proyecto tiene fines académicos.
 
 - Thomas Bedoya Rendon
 - Eder Ceballos Quiroz
-- Samuel Pabon Rendon
+- Samuel Rendon Pabon
